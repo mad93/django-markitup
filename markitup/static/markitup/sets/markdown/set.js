@@ -11,6 +11,7 @@
 // Feel free to add more tags
 // -------------------------------------------------------------------
 mySettings = {
+	onTab:				{keepDefault:false, replaceWith:'    '},
 	onShiftEnter:		{keepDefault:false, openWith:'\n\n'},
 	markupSet: [
 		{name:'First Level Heading', key:'1', placeHolder:'Your title here...', closeWith:function(markItUp) { return miu.markdownTitle(markItUp, '=') } },
